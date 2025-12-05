@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Gallery with Filters & Lightbox</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Image Gallery</h2>
+
+<!-- FILTER BUTTONS -->
+<div class="filters">
+  <button class="filter-btn active" data-category="all">All</button>
+  <button class="filter-btn" data-category="nature">Nature</button>
+  <button class="filter-btn" data-category="city">City</button>
+  <button class="filter-btn" data-category="animals">Animals</button>
+</div>
+
+<!-- GALLERY GRID -->
+<div class="gallery">
+  <img src="https://picsum.photos/id/1015/400" data-category="nature">
+  <img src="https://picsum.photos/id/1025/400" data-category="animals">
+  <img src="https://picsum.photos/id/1035/400" data-category="city">
+  <img src="https://picsum.photos/id/1041/400" data-category="nature">
+  <img src="https://picsum.photos/id/1062/400" data-category="animals">
+  <img src="https://picsum.photos/id/1049/400" data-category="city">
+  <img src="https://picsum.photos/id/237/300" data-category="animals">
+  <img src="https://picsum.photos/id/1016/400" data-category="nature">
+  <img src="https://picsum.photos/id/1056/400" data-category="nature">
+  <img src="https://picsum.photos/id/1023/400" data-category="nature">
+  
+  <img src="https://picsum.photos/id/1005/400" data-category="city">
+  <img src="https://picsum.photos/id/1065/400" data-category="city">
+  <img src="https://picsum.photos/id/1045/400" data-category="nature">
+  <img src="https://picsum.photos/id/1040/400" data-category="city">
+  <img src="https://picsum.photos/id/1064/400" data-category="nature">
+  <img src="https://picsum.photos/id/1042/400" data-category="city">
+  <img src="https://picsum.photos/id/232/300" data-category="city">
+  <img src="https://picsum.photos/id/1036/400" data-category="nature">
+  <img src="https://picsum.photos/id/1026/400" data-category="city">
+  <img src="https://picsum.photos/id/1053/400" data-category="nature">
+
+  
+  <img src="https://picsum.photos/id/1010/400" data-category="city">
+  <img src="https://picsum.photos/id/1020/400" data-category="animals">
+  <img src="https://picsum.photos/id/1031/400" data-category="city">
+  <img src="https://picsum.photos/id/1043/400" data-category="city">
+  <img src="https://picsum.photos/id/1060/400" data-category="city">
+  <img src="https://picsum.photos/id/1044/400" data-category="city">
+  <img src="https://picsum.photos/id/227/300" data-category="city">
+  <img src="https://picsum.photos/id/1006/400" data-category="nature">
+  <img src="https://picsum.photos/id/1056/400" data-category="nature">
+  <img src="https://picsum.photos/id/1003/400" data-category="animals">
+</div>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-img">
+  <div class="nav-btn prev">&#10094;</div>
+  <div class="nav-btn next">&#10095;</div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
